@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E02B640C2B310C3300C6935B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02B640B2B310C3300C6935B /* WidgetKit.framework */; };
+		E02B640E2B310C3300C6935B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02B640D2B310C3300C6935B /* SwiftUI.framework */; };
+		E02B64112B310C3300C6935B /* RaceTrackWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02B64102B310C3300C6935B /* RaceTrackWidgetBundle.swift */; };
+		E02B64132B310C3300C6935B /* RaceTrackWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02B64122B310C3300C6935B /* RaceTrackWidget.swift */; };
+		E02B64152B310C3500C6935B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E02B64142B310C3500C6935B /* Assets.xcassets */; };
+		E02B64192B310C3500C6935B /* RaceTrackWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E02B64092B310C3300C6935B /* RaceTrackWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E02B641F2B312D8C00C6935B /* NextGrandPrixConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02B641E2B312D8C00C6935B /* NextGrandPrixConfig.swift */; };
+		E02B64262B31351200C6935B /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02B64252B31351200C6935B /* Date+Ext.swift */; };
+		E02B64272B31351200C6935B /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02B64252B31351200C6935B /* Date+Ext.swift */; };
+		E0F51EF72B3101A6001E34B2 /* RaceTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F51EF62B3101A6001E34B2 /* RaceTrackApp.swift */; };
+		E0F51EF92B3101A6001E34B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F51EF82B3101A6001E34B2 /* ContentView.swift */; };
+		E0F51EFB2B3101A7001E34B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0F51EFA2B3101A7001E34B2 /* Assets.xcassets */; };
+		E0F51EFE2B3101A7001E34B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0F51EFD2B3101A7001E34B2 /* Preview Assets.xcassets */; };
+		E0F51F082B3101A7001E34B2 /* RaceTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F51F072B3101A7001E34B2 /* RaceTrackTests.swift */; };
+		E0F51F122B3101A7001E34B2 /* RaceTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F51F112B3101A7001E34B2 /* RaceTrackUITests.swift */; };
+		E0F51F142B3101A7001E34B2 /* RaceTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F51F132B3101A7001E34B2 /* RaceTrackUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E02B64172B310C3500C6935B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0F51EEB2B3101A6001E34B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E02B64082B310C3300C6935B;
+			remoteInfo = RaceTrackWidgetExtension;
+		};
+		E0F51F042B3101A7001E34B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0F51EEB2B3101A6001E34B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0F51EF22B3101A6001E34B2;
+			remoteInfo = RaceTrack;
+		};
+		E0F51F0E2B3101A7001E34B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0F51EEB2B3101A6001E34B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0F51EF22B3101A6001E34B2;
+			remoteInfo = RaceTrack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E02B641A2B310C3500C6935B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E02B64192B310C3500C6935B /* RaceTrackWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E02B64092B310C3300C6935B /* RaceTrackWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RaceTrackWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02B640B2B310C3300C6935B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		E02B640D2B310C3300C6935B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		E02B64102B310C3300C6935B /* RaceTrackWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceTrackWidgetBundle.swift; sourceTree = "<group>"; };
+		E02B64122B310C3300C6935B /* RaceTrackWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceTrackWidget.swift; sourceTree = "<group>"; };
+		E02B64142B310C3500C6935B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E02B64162B310C3500C6935B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E02B641E2B312D8C00C6935B /* NextGrandPrixConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextGrandPrixConfig.swift; sourceTree = "<group>"; };
+		E02B64252B31351200C6935B /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		E0F51EF32B3101A6001E34B2 /* RaceTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaceTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F51EF62B3101A6001E34B2 /* RaceTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceTrackApp.swift; sourceTree = "<group>"; };
+		E0F51EF82B3101A6001E34B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0F51EFA2B3101A7001E34B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0F51EFD2B3101A7001E34B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0F51F032B3101A7001E34B2 /* RaceTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaceTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F51F072B3101A7001E34B2 /* RaceTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceTrackTests.swift; sourceTree = "<group>"; };
+		E0F51F0D2B3101A7001E34B2 /* RaceTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaceTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F51F112B3101A7001E34B2 /* RaceTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceTrackUITests.swift; sourceTree = "<group>"; };
+		E0F51F132B3101A7001E34B2 /* RaceTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E02B64062B310C3300C6935B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02B640E2B310C3300C6935B /* SwiftUI.framework in Frameworks */,
+				E02B640C2B310C3300C6935B /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F51EF02B3101A6001E34B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F51F002B3101A7001E34B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F51F0A2B3101A7001E34B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E02B640A2B310C3300C6935B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E02B640B2B310C3300C6935B /* WidgetKit.framework */,
+				E02B640D2B310C3300C6935B /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E02B640F2B310C3300C6935B /* RaceTrackWidget */ = {
+			isa = PBXGroup;
+			children = (
+				E02B64102B310C3300C6935B /* RaceTrackWidgetBundle.swift */,
+				E02B64122B310C3300C6935B /* RaceTrackWidget.swift */,
+				E02B641E2B312D8C00C6935B /* NextGrandPrixConfig.swift */,
+				E02B64142B310C3500C6935B /* Assets.xcassets */,
+				E02B64162B310C3500C6935B /* Info.plist */,
+			);
+			path = RaceTrackWidget;
+			sourceTree = "<group>";
+		};
+		E0F51EEA2B3101A6001E34B2 = {
+			isa = PBXGroup;
+			children = (
+				E02B64252B31351200C6935B /* Date+Ext.swift */,
+				E0F51EF52B3101A6001E34B2 /* RaceTrack */,
+				E0F51F062B3101A7001E34B2 /* RaceTrackTests */,
+				E0F51F102B3101A7001E34B2 /* RaceTrackUITests */,
+				E02B640F2B310C3300C6935B /* RaceTrackWidget */,
+				E02B640A2B310C3300C6935B /* Frameworks */,
+				E0F51EF42B3101A6001E34B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0F51EF42B3101A6001E34B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0F51EF32B3101A6001E34B2 /* RaceTrack.app */,
+				E0F51F032B3101A7001E34B2 /* RaceTrackTests.xctest */,
+				E0F51F0D2B3101A7001E34B2 /* RaceTrackUITests.xctest */,
+				E02B64092B310C3300C6935B /* RaceTrackWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0F51EF52B3101A6001E34B2 /* RaceTrack */ = {
+			isa = PBXGroup;
+			children = (
+				E0F51EF62B3101A6001E34B2 /* RaceTrackApp.swift */,
+				E0F51EF82B3101A6001E34B2 /* ContentView.swift */,
+				E0F51EFA2B3101A7001E34B2 /* Assets.xcassets */,
+				E0F51EFC2B3101A7001E34B2 /* Preview Content */,
+			);
+			path = RaceTrack;
+			sourceTree = "<group>";
+		};
+		E0F51EFC2B3101A7001E34B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E0F51EFD2B3101A7001E34B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E0F51F062B3101A7001E34B2 /* RaceTrackTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0F51F072B3101A7001E34B2 /* RaceTrackTests.swift */,
+			);
+			path = RaceTrackTests;
+			sourceTree = "<group>";
+		};
+		E0F51F102B3101A7001E34B2 /* RaceTrackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0F51F112B3101A7001E34B2 /* RaceTrackUITests.swift */,
+				E0F51F132B3101A7001E34B2 /* RaceTrackUITestsLaunchTests.swift */,
+			);
+			path = RaceTrackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E02B64082B310C3300C6935B /* RaceTrackWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E02B641D2B310C3500C6935B /* Build configuration list for PBXNativeTarget "RaceTrackWidgetExtension" */;
+			buildPhases = (
+				E02B64052B310C3300C6935B /* Sources */,
+				E02B64062B310C3300C6935B /* Frameworks */,
+				E02B64072B310C3300C6935B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaceTrackWidgetExtension;
+			productName = RaceTrackWidgetExtension;
+			productReference = E02B64092B310C3300C6935B /* RaceTrackWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E0F51EF22B3101A6001E34B2 /* RaceTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0F51F172B3101A7001E34B2 /* Build configuration list for PBXNativeTarget "RaceTrack" */;
+			buildPhases = (
+				E0F51EEF2B3101A6001E34B2 /* Sources */,
+				E0F51EF02B3101A6001E34B2 /* Frameworks */,
+				E0F51EF12B3101A6001E34B2 /* Resources */,
+				E02B641A2B310C3500C6935B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E02B64182B310C3500C6935B /* PBXTargetDependency */,
+			);
+			name = RaceTrack;
+			productName = RaceTrack;
+			productReference = E0F51EF32B3101A6001E34B2 /* RaceTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0F51F022B3101A7001E34B2 /* RaceTrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0F51F1A2B3101A7001E34B2 /* Build configuration list for PBXNativeTarget "RaceTrackTests" */;
+			buildPhases = (
+				E0F51EFF2B3101A7001E34B2 /* Sources */,
+				E0F51F002B3101A7001E34B2 /* Frameworks */,
+				E0F51F012B3101A7001E34B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0F51F052B3101A7001E34B2 /* PBXTargetDependency */,
+			);
+			name = RaceTrackTests;
+			productName = RaceTrackTests;
+			productReference = E0F51F032B3101A7001E34B2 /* RaceTrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0F51F0C2B3101A7001E34B2 /* RaceTrackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0F51F1D2B3101A7001E34B2 /* Build configuration list for PBXNativeTarget "RaceTrackUITests" */;
+			buildPhases = (
+				E0F51F092B3101A7001E34B2 /* Sources */,
+				E0F51F0A2B3101A7001E34B2 /* Frameworks */,
+				E0F51F0B2B3101A7001E34B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0F51F0F2B3101A7001E34B2 /* PBXTargetDependency */,
+			);
+			name = RaceTrackUITests;
+			productName = RaceTrackUITests;
+			productReference = E0F51F0D2B3101A7001E34B2 /* RaceTrackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0F51EEB2B3101A6001E34B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					E02B64082B310C3300C6935B = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					E0F51EF22B3101A6001E34B2 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					E0F51F022B3101A7001E34B2 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = E0F51EF22B3101A6001E34B2;
+					};
+					E0F51F0C2B3101A7001E34B2 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = E0F51EF22B3101A6001E34B2;
+					};
+				};
+			};
+			buildConfigurationList = E0F51EEE2B3101A6001E34B2 /* Build configuration list for PBXProject "RaceTrack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0F51EEA2B3101A6001E34B2;
+			productRefGroup = E0F51EF42B3101A6001E34B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0F51EF22B3101A6001E34B2 /* RaceTrack */,
+				E0F51F022B3101A7001E34B2 /* RaceTrackTests */,
+				E0F51F0C2B3101A7001E34B2 /* RaceTrackUITests */,
+				E02B64082B310C3300C6935B /* RaceTrackWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E02B64072B310C3300C6935B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02B64152B310C3500C6935B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F51EF12B3101A6001E34B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F51EFE2B3101A7001E34B2 /* Preview Assets.xcassets in Resources */,
+				E0F51EFB2B3101A7001E34B2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F51F012B3101A7001E34B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F51F0B2B3101A7001E34B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E02B64052B310C3300C6935B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02B64132B310C3300C6935B /* RaceTrackWidget.swift in Sources */,
+				E02B641F2B312D8C00C6935B /* NextGrandPrixConfig.swift in Sources */,
+				E02B64112B310C3300C6935B /* RaceTrackWidgetBundle.swift in Sources */,
+				E02B64272B31351200C6935B /* Date+Ext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F51EEF2B3101A6001E34B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F51EF92B3101A6001E34B2 /* ContentView.swift in Sources */,
+				E0F51EF72B3101A6001E34B2 /* RaceTrackApp.swift in Sources */,
+				E02B64262B31351200C6935B /* Date+Ext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F51EFF2B3101A7001E34B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F51F082B3101A7001E34B2 /* RaceTrackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F51F092B3101A7001E34B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F51F122B3101A7001E34B2 /* RaceTrackUITests.swift in Sources */,
+				E0F51F142B3101A7001E34B2 /* RaceTrackUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E02B64182B310C3500C6935B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E02B64082B310C3300C6935B /* RaceTrackWidgetExtension */;
+			targetProxy = E02B64172B310C3500C6935B /* PBXContainerItemProxy */;
+		};
+		E0F51F052B3101A7001E34B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0F51EF22B3101A6001E34B2 /* RaceTrack */;
+			targetProxy = E0F51F042B3101A7001E34B2 /* PBXContainerItemProxy */;
+		};
+		E0F51F0F2B3101A7001E34B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0F51EF22B3101A6001E34B2 /* RaceTrack */;
+			targetProxy = E0F51F0E2B3101A7001E34B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E02B641B2B310C3500C6935B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4Q4F9HFAK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RaceTrackWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RaceTrackWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SymmetrySyndicate.RaceTrack.RaceTrackWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E02B641C2B310C3500C6935B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4Q4F9HFAK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RaceTrackWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RaceTrackWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SymmetrySyndicate.RaceTrack.RaceTrackWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0F51F152B3101A7001E34B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0F51F162B3101A7001E34B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0F51F182B3101A7001E34B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RaceTrack/Preview Content\"";
+				DEVELOPMENT_TEAM = P4Q4F9HFAK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SymmetrySyndicate.RaceTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0F51F192B3101A7001E34B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RaceTrack/Preview Content\"";
+				DEVELOPMENT_TEAM = P4Q4F9HFAK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SymmetrySyndicate.RaceTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0F51F1B2B3101A7001E34B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4Q4F9HFAK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SymmetrySyndicate.RaceTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaceTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RaceTrack";
+			};
+			name = Debug;
+		};
+		E0F51F1C2B3101A7001E34B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4Q4F9HFAK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SymmetrySyndicate.RaceTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaceTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RaceTrack";
+			};
+			name = Release;
+		};
+		E0F51F1E2B3101A7001E34B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4Q4F9HFAK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SymmetrySyndicate.RaceTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RaceTrack;
+			};
+			name = Debug;
+		};
+		E0F51F1F2B3101A7001E34B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4Q4F9HFAK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SymmetrySyndicate.RaceTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RaceTrack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E02B641D2B310C3500C6935B /* Build configuration list for PBXNativeTarget "RaceTrackWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02B641B2B310C3500C6935B /* Debug */,
+				E02B641C2B310C3500C6935B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0F51EEE2B3101A6001E34B2 /* Build configuration list for PBXProject "RaceTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F51F152B3101A7001E34B2 /* Debug */,
+				E0F51F162B3101A7001E34B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0F51F172B3101A7001E34B2 /* Build configuration list for PBXNativeTarget "RaceTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F51F182B3101A7001E34B2 /* Debug */,
+				E0F51F192B3101A7001E34B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0F51F1A2B3101A7001E34B2 /* Build configuration list for PBXNativeTarget "RaceTrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F51F1B2B3101A7001E34B2 /* Debug */,
+				E0F51F1C2B3101A7001E34B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0F51F1D2B3101A7001E34B2 /* Build configuration list for PBXNativeTarget "RaceTrackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F51F1E2B3101A7001E34B2 /* Debug */,
+				E0F51F1F2B3101A7001E34B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0F51EEB2B3101A6001E34B2 /* Project object */;
+}
