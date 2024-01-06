@@ -15,7 +15,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E0F51F402B31090D001E34B2"
+               BlueprintIdentifier = "E02B64082B310C3300C6935B"
                BuildableName = "RaceTrackWidgetExtension.appex"
                BlueprintName = "RaceTrackWidgetExtension"
                ReferencedContainer = "container:RaceTrack.xcodeproj">
@@ -61,7 +61,7 @@
          BundleIdentifier = "com.apple.springboard">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E0F51F402B31090D001E34B2"
+            BlueprintIdentifier = "E02B64082B310C3300C6935B"
             BuildableName = "RaceTrackWidgetExtension.appex"
             BlueprintName = "RaceTrackWidgetExtension"
             ReferencedContainer = "container:RaceTrack.xcodeproj">

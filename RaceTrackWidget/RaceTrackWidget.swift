@@ -50,7 +50,14 @@ struct RaceTrackWidgetEntryView : View {
     
     var body: some View {
         ZStack {
-            ContainerRelativeShape().fill(config.backgroundColor.gradient)
+            ContainerRelativeShape().fill(
+                LinearGradient(
+                    gradient: Gradient(colors :[ config.primaryColor, config.secondaryColor]),
+                    startPoint: .bottomLeading,
+                    endPoint: .topTrailing
+                )
+            )
+            
             VStack{
                 Spacer() // Top Spacer
                 Text(config.grandPrix)
@@ -62,7 +69,6 @@ struct RaceTrackWidgetEntryView : View {
                     .frame(height: 0.4)
                     .overlay(.white)
                 Text(config.venue)
-                    .foregroundStyle(.white.opacity(0.8)) // Venue is slightly toned down
                 Spacer() // Bottom Spacer
             }
             .padding()

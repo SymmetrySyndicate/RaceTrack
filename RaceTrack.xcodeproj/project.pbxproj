@@ -23,6 +23,8 @@
 		E0F51F082B3101A7001E34B2 /* RaceTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F51F072B3101A7001E34B2 /* RaceTrackTests.swift */; };
 		E0F51F122B3101A7001E34B2 /* RaceTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F51F112B3101A7001E34B2 /* RaceTrackUITests.swift */; };
 		E0F51F142B3101A7001E34B2 /* RaceTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F51F132B3101A7001E34B2 /* RaceTrackUITestsLaunchTests.swift */; };
+		F3F1E37D2B49C571002FE220 /* Colors+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F1E37C2B49C571002FE220 /* Colors+Ext.swift */; };
+		F3F1E37E2B49C571002FE220 /* Colors+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F1E37C2B49C571002FE220 /* Colors+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,7 @@
 		E0F51F0D2B3101A7001E34B2 /* RaceTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaceTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F51F112B3101A7001E34B2 /* RaceTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceTrackUITests.swift; sourceTree = "<group>"; };
 		E0F51F132B3101A7001E34B2 /* RaceTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3F1E37C2B49C571002FE220 /* Colors+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				E02B64252B31351200C6935B /* Date+Ext.swift */,
+				F3F1E37C2B49C571002FE220 /* Colors+Ext.swift */,
 				E0F51EF52B3101A6001E34B2 /* RaceTrack */,
 				E0F51F062B3101A7001E34B2 /* RaceTrackTests */,
 				E0F51F102B3101A7001E34B2 /* RaceTrackUITests */,
@@ -361,6 +365,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3F1E37E2B49C571002FE220 /* Colors+Ext.swift in Sources */,
 				E02B64132B310C3300C6935B /* RaceTrackWidget.swift in Sources */,
 				E02B641F2B312D8C00C6935B /* NextGrandPrixConfig.swift in Sources */,
 				E02B64112B310C3300C6935B /* RaceTrackWidgetBundle.swift in Sources */,
@@ -373,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0F51EF92B3101A6001E34B2 /* ContentView.swift in Sources */,
+				F3F1E37D2B49C571002FE220 /* Colors+Ext.swift in Sources */,
 				E0F51EF72B3101A6001E34B2 /* RaceTrackApp.swift in Sources */,
 				E02B64262B31351200C6935B /* Date+Ext.swift in Sources */,
 			);
